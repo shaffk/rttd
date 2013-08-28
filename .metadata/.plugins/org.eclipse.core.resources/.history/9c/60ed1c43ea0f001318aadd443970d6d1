@@ -29,7 +29,7 @@ sap.ui.jsview("rttd.RTTD", {
 		var sString = '<Val><Val1>25-30</Val1><Val2>25-30</Val2></val>';
 		var oModel =  new sap.ui.model.xml.XMLModel();
 		oModel.setData(sString);
-		var oCheckbox = new sap.ui.commons.CheckBox().bindProperty("text", '{Val1}');		
+		var oCheckbox = new sap.ui.commons.CheckBox().bindProperty("text", '{Val1}');			
 		var oVerticalLayout = new sap.ui.commons.layout.VerticalLayout();
 		oVerticalLayout.setWidth("250px");		
 		var oCategoryPanel = this.getCategoryPanel();
